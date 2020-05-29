@@ -1,4 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="hello-soap"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="hello-soap" elementFormDefault="qualified">
 
     <xs:element name="getHelloRequest">
