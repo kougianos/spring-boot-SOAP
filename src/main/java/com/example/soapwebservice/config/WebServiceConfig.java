@@ -44,6 +44,16 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         return wsdl11Definition;
     }
 
+    @Bean(name = "calculator")
+    public DefaultWsdl11Definition defaultWsdl11DefinitionCalculator(XsdSchema calculatorSchema) {
+        DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
+        wsdl11Definition.setPortTypeName("calculator");
+        wsdl11Definition.setLocationUri("/ws");
+        wsdl11Definition.setTargetNamespace("calculator-soap");
+        wsdl11Definition.setSchema(calculatorSchema);
+        return wsdl11Definition;
+    }
+
     @Bean
     public XsdSchema countriesSchema() {
         return new SimpleXsdSchema(new ClassPathResource("countries.xsd"));
@@ -52,5 +62,10 @@ public class WebServiceConfig extends WsConfigurerAdapter {
     @Bean
     public XsdSchema helloSchema() {
         return new SimpleXsdSchema(new ClassPathResource("hello.xsd"));
+    }
+
+    @Bean
+    public XsdSchema calculatorSchema() {
+        return new SimpleXsdSchema(new ClassPathResource("calculator.xsd"));
     }
 }

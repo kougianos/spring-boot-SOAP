@@ -33,4 +33,5 @@ build/
 ### Generated classes ###
 src/main/java/countries_soap/
 src/main/java/hello_soap/
+src/main/java/calculator_soap/
 src/main/java/META-INF/JAXB/

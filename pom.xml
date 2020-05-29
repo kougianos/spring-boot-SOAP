@@ -86,6 +86,7 @@
 					<sources>
 						<source>src/main/resources/countries.xsd</source>
 						<source>src/main/resources/hello.xsd</source>
+						<source>src/main/resources/calculator.xsd</source>
 					</sources>
 					<outputDirectory>${basedir}/src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>
