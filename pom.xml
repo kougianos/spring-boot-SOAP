@@ -85,6 +85,7 @@
 				<configuration>
 					<sources>
 						<source>src/main/resources/countries.xsd</source>
+						<source>src/main/resources/hello.xsd</source>
 					</sources>
 					<outputDirectory>${basedir}/src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>

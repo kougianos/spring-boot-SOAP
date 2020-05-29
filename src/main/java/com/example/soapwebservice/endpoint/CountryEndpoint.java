@@ -1,4 +1,4 @@
-package com.example.soapwebservice.controller;
+package com.example.soapwebservice.endpoint;
 
 import com.example.soapwebservice.repository.CountryRepository;
 import countries_soap.GetCountryRequest;

@@ -6,7 +6,7 @@
 //
 
 
-package countries_soap;
+package hello_soap;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the countries_soap package. 
+ * generated in the hello_soap package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -30,34 +30,26 @@ public class ObjectFactory {
 
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: countries_soap
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: hello_soap
      * 
      */
     public ObjectFactory() {
     }
 
     /**
-     * Create an instance of {@link GetCountryRequest }
+     * Create an instance of {@link GetHelloRequest }
      * 
      */
-    public GetCountryRequest createGetCountryRequest() {
-        return new GetCountryRequest();
+    public GetHelloRequest createGetHelloRequest() {
+        return new GetHelloRequest();
     }
 
     /**
-     * Create an instance of {@link GetCountryResponse }
+     * Create an instance of {@link GetHelloResponse }
      * 
      */
-    public GetCountryResponse createGetCountryResponse() {
-        return new GetCountryResponse();
-    }
-
-    /**
-     * Create an instance of {@link Country }
-     * 
-     */
-    public Country createCountry() {
-        return new Country();
+    public GetHelloResponse createGetHelloResponse() {
+        return new GetHelloResponse();
     }
 
 }

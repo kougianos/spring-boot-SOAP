@@ -5,5 +5,5 @@
 // Generated on: 2020.05.29 at 10:23:19 PM EEST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "countries-soap", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package countries_soap;
+@javax.xml.bind.annotation.XmlSchema(namespace = "hello-soap", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+package hello_soap;

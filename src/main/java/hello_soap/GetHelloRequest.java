@@ -6,7 +6,7 @@
 //
 
 
-package countries_soap;
+package hello_soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -38,8 +38,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "name"
 })
-@XmlRootElement(name = "getCountryRequest")
-public class GetCountryRequest {
+@XmlRootElement(name = "getHelloRequest")
+public class GetHelloRequest {
 
     @XmlElement(required = true)
     protected String name;
