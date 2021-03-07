@@ -1,4 +1,4 @@
-package com.example.soapwebservice.config;
+package com.kougianos.soapwebservice.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -16,11 +16,11 @@ import org.springframework.xml.xsd.XsdSchema;
 @Configuration
 public class WebServiceConfig extends WsConfigurerAdapter {
     @Bean
-    public ServletRegistrationBean messageDispatcherServlet(ApplicationContext applicationContext) {
+    public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext applicationContext) {
         MessageDispatcherServlet servlet = new MessageDispatcherServlet();
         servlet.setApplicationContext(applicationContext);
         servlet.setTransformWsdlLocations(true);
-        return new ServletRegistrationBean(servlet, "/ws/*");
+        return new ServletRegistrationBean<>(servlet, "/ws/*");
     }
 
     // Bean name defines the location of the generated WSDL file -> http://http://localhost:8080/ws/countries.wsdl

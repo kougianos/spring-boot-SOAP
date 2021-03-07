@@ -1,4 +1,4 @@
-package com.example.soapwebservice;
+package com.kougianos.soapwebservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.example.soapwebservice.endpoint;
+package com.kougianos.soapwebservice.endpoint;
 
-import com.example.soapwebservice.repository.CountryRepository;
+import com.kougianos.soapwebservice.repository.CountryRepository;
 import countries_soap.GetCountryRequest;
 import countries_soap.GetCountryResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +8,6 @@ import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
-
 
 
 @Endpoint

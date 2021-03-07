@@ -1,9 +1,7 @@
-package com.example.soapwebservice.endpoint;
+package com.kougianos.soapwebservice.endpoint;
 
 import calculator_soap.Add;
 import calculator_soap.AddResponse;
-import hello_soap.GetHelloRequest;
-import hello_soap.GetHelloResponse;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;

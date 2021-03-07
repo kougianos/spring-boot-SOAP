@@ -1,4 +1,4 @@
-package com.example.soapwebservice;
+package com.kougianos.soapwebservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

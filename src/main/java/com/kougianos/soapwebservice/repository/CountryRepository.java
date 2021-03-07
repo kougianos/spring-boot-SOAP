@@ -1,4 +1,4 @@
-package com.example.soapwebservice.repository;
+package com.kougianos.soapwebservice.repository;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;

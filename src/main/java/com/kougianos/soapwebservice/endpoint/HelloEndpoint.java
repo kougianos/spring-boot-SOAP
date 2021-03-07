@@ -1,4 +1,4 @@
-package com.example.soapwebservice.endpoint;
+package com.kougianos.soapwebservice.endpoint;
 
 import hello_soap.GetHelloRequest;
 import hello_soap.GetHelloResponse;
