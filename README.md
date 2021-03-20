@@ -1,6 +1,7 @@
 
 POST -header text/xml
 http://localhost:8080/ws
+
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
                   xmlns:gs="countries-soap">

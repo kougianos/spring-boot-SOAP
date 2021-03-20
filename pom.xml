@@ -86,7 +86,6 @@
                 <configuration>
                     <sources>
                         <source>src/main/resources/countries.xsd</source>
-                        <source>src/main/resources/hello.xsd</source>
                         <source>src/main/resources/calculator.xsd</source>
                     </sources>
                     <clearOutputDir>false</clearOutputDir>
